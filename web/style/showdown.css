@@ -1,0 +1,60 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: medium;
+    margin: 0px;
+    text-align: center;
+}
+
+#allcontent {
+    width: 1000px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+    font-size: xx-small;
+}
+
+table, td, th {
+    border-style: solid;
+}
+
+table {
+    margin: 0 auto;
+    border-width: 0 0 1px 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td, th {
+    margin: 0;
+    padding: 4px;
+    border-width: 1px 1px 0 0;
+}
+
+form table,form th,form td {
+    border: 0 none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img.tabular {
+    max-width: 150px;
+}
+
+img.dvdShop {
+    max-width: 110px;
+    float: left;
+}
+
+td.number {
+    text-align: right;
+}
+
+img { border: none; }
+
+li { list-style: none; }
