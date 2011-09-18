@@ -2,7 +2,7 @@
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
     <filter>
         <filter-name>LoginFilter</filter-name>
-        <filter-class>edu.zoller.showdown.filter.LoginFilter</filter-class>
+        <filter-class>showdown.LoginFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>LoginFilter</filter-name>
@@ -10,103 +10,103 @@
     </filter-mapping>
     <servlet>
         <servlet-name>ListShows</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.admin.show.ListShows</servlet-class>
+        <servlet-class>showdown.ListShows</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>PersistShow</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.admin.show.PersistShow</servlet-class>
+        <servlet-class>showdown.PersistShow</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditShow</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.admin.show.EditShow</servlet-class>
+        <servlet-class>showdown.EditShow</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>NewShow</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.admin.show.NewShow</servlet-class>
+        <servlet-class>showdown.NewShow</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DeleteShow</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.admin.show.DeleteShow</servlet-class>
+        <servlet-class>showdown.DeleteShow</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ListEpisodes</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.admin.episode.ListEpisodes</servlet-class>
+        <servlet-class>showdown.ListEpisodes</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>NewEpisode</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.admin.episode.NewEpisode</servlet-class>
+        <servlet-class>showdown.NewEpisode</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditEpisode</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.admin.episode.EditEpisode</servlet-class>
+        <servlet-class>showdown.EditEpisode</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>PersistEpisode</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.admin.episode.PersistEpisode</servlet-class>
+        <servlet-class>showdown.PersistEpisode</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DeleteEpisode</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.admin.episode.DeleteEpisode</servlet-class>
+        <servlet-class>showdown.DeleteEpisode</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DeleteDvd</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.admin.dvd.DeleteDvd</servlet-class>
+        <servlet-class>showdown.DeleteDvd</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditDvd</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.admin.dvd.EditDvd</servlet-class>
+        <servlet-class>showdown.EditDvd</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ListDvds</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.admin.dvd.ListDvds</servlet-class>
+        <servlet-class>showdown.ListDvds</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>NewDvd</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.admin.dvd.NewDvd</servlet-class>
+        <servlet-class>showdown.NewDvd</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>PersistDvd</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.admin.dvd.PersistDvd</servlet-class>
+        <servlet-class>showdown.PersistDvd</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>WatchEpisode</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.admin.episode.WatchEpisode</servlet-class>
+        <servlet-class>showdown.WatchEpisode</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DvdShop</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.shop.DvdShop</servlet-class>
+        <servlet-class>showdown.DvdShop</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddToCart</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.shop.AddToCart</servlet-class>
+        <servlet-class>showdown.AddToCart</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ListCart</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.shop.ListCart</servlet-class>
+        <servlet-class>showdown.ListCart</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Checkout</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.shop.Checkout</servlet-class>
+        <servlet-class>showdown.Checkout</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveFromCart</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.shop.RemoveFromCart</servlet-class>
+        <servlet-class>showdown.RemoveFromCart</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>FanListShows</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.fan.ListShows</servlet-class>
+        <servlet-class>showdown.ListShows</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>FanListEpisodes</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.fan.ListEpisodes</servlet-class>
+        <servlet-class>showdown.ListEpisodes</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>FanWatchEpisode</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.fan.WatchEpisode</servlet-class>
+        <servlet-class>showdown.WatchEpisode</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Logout</servlet-name>
-        <servlet-class>edu.zoller.showdown.servlet.shop.Logout</servlet-class>
+        <servlet-class>showdown.Logout</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ListShows</servlet-name>
@@ -216,7 +216,6 @@
     <welcome-file-list>
         <welcome-file/>
     </welcome-file-list>
-
     <error-page>
         <error-code>404</error-code>
         <location>/error_404.jsp</location>
@@ -225,7 +224,6 @@
         <exception-type>java.lang.Throwable</exception-type>
         <location>/error_java.jsp</location>
     </error-page>
-
     <security-constraint>
         <display-name>payment</display-name>
         <web-resource-collection>
