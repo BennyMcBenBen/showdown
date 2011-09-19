@@ -1,8 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package showdown.servlet.admin.dvd;
 
 import showdown.db.ShowdownDB;
@@ -18,7 +13,12 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class DeleteDvd extends HttpServlet {
    
-    /** 
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1146530227660677502L;
+
+	/** 
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code> methods.
      * @param request servlet request
      * @param response servlet response
@@ -35,7 +35,6 @@ public class DeleteDvd extends HttpServlet {
         response.sendRedirect("/showdown/admin/dvd/list");
     } 
 
-    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /** 
      * Handles the HTTP <code>GET</code> method.
      * @param request servlet request
@@ -69,6 +68,5 @@ public class DeleteDvd extends HttpServlet {
     @Override
     public String getServletInfo() {
         return "Short description";
-    }// </editor-fold>
-
+    }
 }
