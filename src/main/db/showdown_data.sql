@@ -1,4 +1,4 @@
-﻿DELETE FROM showdown.user_role;
+DELETE FROM showdown.user_role;
 DELETE FROM showdown.user;
 DELETE FROM showdown.dvd_episodes;
 DELETE FROM showdown.dvd;
