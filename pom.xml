@@ -3,7 +3,7 @@
 	<groupId>showdown</groupId>
 	<artifactId>showdown</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>showdown</name>
 	<url>https://github.com/BennyMcBenBen/showdown</url>
 	<dependencies>
