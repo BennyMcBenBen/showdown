@@ -3,7 +3,7 @@
 	<groupId>showdown</groupId>
 	<artifactId>showdown</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>showdown</name>
 	<url>https://github.com/BennyMcBenBen/showdown</url>
 	<dependencies>
@@ -50,7 +50,6 @@
 	</build>
   <scm>
     <developerConnection>scm:git:https://github.com/BennyMcBenBen/showdown</developerConnection>
-    <tag>HEAD</tag>
   </scm>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
